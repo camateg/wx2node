@@ -1,0 +1,18 @@
+%html
+	%head
+		%title
+			wxnode	
+			
+		%style
+			div.text { font-family: helvetica; size: 14px; padding-top: 14px; }
+			div.text, .img { text-align: center; width: 100%; }
+			div.img { padding-top: 24px; }
+			div.img > img { padding: 12px; border: 3px solid #77A; }
+	
+	%body
+		%div.text.title
+			=@title
+		.text.body
+			=@desc	
+		.img	
+			%img{:src=> @pic}

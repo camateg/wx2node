@@ -1,0 +1,11 @@
+%html
+	%head
+		%title
+			choose a city	
+			
+		%script{:src=>'http://code.jquery.com/jquery-1.10.2.min.js'}
+		%script{:src=>'index.js'}
+	%body
+		%input{:id=>'pretty_city'}
+		%input{:type=>'hidden',:id=>'real_city'}
+		#output
